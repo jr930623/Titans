@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        
+        <title> Titans </title>
+    </head>
+    <body>
+        <section id= "seleccionar-campeon">
+            <h1 class="TituloPrincipal"> Titans </h1>
+    
+            <h2 class="subtitulo"> elige a tu campeon</h2>
+
+            <div id= "contenedorTarjetas" class="tarjetas">
+        
+            </div>
+                
+            <button id="boton-CAMPEONES">seleccionar</button>
+        </section>
+        
+        <section id= "seleccionar-ataque">
+            <h1 class="TituloPrincipal"> Titans </h1>
+                
+            <h2 class="subtitulo"> elige a tu ataque </h2>
+            
+            <div class= "tarjetasAtaques">
+                <button id="fuego" class="Boton-De-Ataque"> fuego 🔥</button>
+                <button id="piedra" class="Boton-De-Ataque"> piedra 🪨 </button>
+                <button id="hielo" class="Boton-De-Ataque"> hielo 🧊 </button>
+                <button id="aire" class="Boton-De-Ataque"> aire 🌪️ </button>
+            </div>
+
+            <div id= "mensajes">
+                <p id="resultado"> Buena Suerte</p>
+        
+                <section id= "reiniciar" >
+                    <button id="boton-reiniciar">reiniciar</button>
+                </section>
+            </div> 
+            
+            <div class="ataques">
+                <div class="ataqueJugador">
+                    <p id="vidas-jugador">3</p>
+                    <p id="nomrbe-campeon-padres"></p>
+                    <div id="ataque-Jugador"> </div>
+                </div>
+                
+                <div class="ataqueEnemigo">
+                    <p id="vidas-enemigo">3</p>
+                    <p id="nomrbe-campeon-enmigo"></p>
+                    <div id="ataque-Enemigo"> </div>
+                </div>
+            </div>
+        </section>
+        <link rel="stylesheet" href="./Styles.css">
+        <script src="./Js-titans/js-titans.js"></script>
+    </body>
+</html>

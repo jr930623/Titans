@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    background-image:url("./Pictures/1293302.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.TituloPrincipal{
+    font-family: "PT Serif", serif;
+    color: rgb(139, 0, 0);
+    font-size: 180px;
+    padding: 50px;
+    margin: 14px;
+    height: 143px;
+}
+.subtitulo{
+    display: flex;
+    font-family: "PT Serif", serif;
+    color: rgb(139, 0, 0);
+    font-size: 40px;
+    width: 381px;
+    margin: 5px;
+    justify-content: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+#seleccionar-campeon{
+    font-family: "Noto Serif", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -8px;
+}
+
+.tarjetas, .tarjetasAtaque{
+    display: flex;
+    gap: 10px;
+
+}
+.tarjeta-Titans {
+    font-family: "Playfair Display", serif;
+    color: white;
+    display: flex;
+    width: 104px;
+    height: 210px;
+    background: #13b845;
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 11px;
+    margin: 2px;
+    border: 2px solid rgb(0, 0, 0);
+    flex-direction: column;
+}
+.tarjeta-Titans img{
+    height: 145px;
+
+}
+input{
+    display: none;
+}
+input:checked + label {
+    background-color:  rgb(139, 0, 0);
+}
+#boton-CAMPEONES{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    background:  rgb(139, 0, 0);
+    width: 159px;
+    height: 66px;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+#seleccionar-ataque{
+    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
+}
+.Boton-De-Ataque{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    background-color: rgb(139, 0, 0);
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 32px;
+}
+#mensajes{
+    color: white;
+    margin: 20px;
+    padding: 10px;
+    background:  rgb(139, 0, 0);
+    border-radius: 20px;
+    border: 2px solid black;
+}
+#boton-reiniciar{
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    display: flex;
+    background:  rgb(139, 0, 0);
+    width: 159px;
+    height: 66px;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.ataques{
+    display: grid;
+    grid-template-columns: 150px 150px;
+    font-family: "Playfair Display", serif;
+    color: white;
+    width:  320px;
+    height: 210px;
+    background:  rgb(139, 0, 0);
+    padding: 0px;
+    box-sizing: border-box;
+    border-radius: 11px;
+    margin: 2px;
+    border: 2px solid rgb(0, 0, 0);
+    flex-direction: column;
+}
+@media (max-width: 360px){
+    .tarjetas, .tarjetasAtaque{
+        flex-direction: column;
+       }
+}
+.ataqueJugador, .ataqueEnemigo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
